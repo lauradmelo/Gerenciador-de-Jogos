@@ -1,4 +1,3 @@
-:::writing{variant="document" id="62841"}
 # 🎮 Gerenciador de Jogos
 
 Projeto desenvolvido para praticar o desenvolvimento de aplicações web utilizando Java e Spring Boot.
@@ -29,4 +28,3 @@ O sistema permite cadastrar e gerenciar jogos de videogame, com informações co
 
 Projeto acadêmico desenvolvido durante o curso de Análise e Desenvolvimento de Sistemas (ADS), com foco na prática de Java, integração com banco de dados e operações CRUD.
 
-:::
