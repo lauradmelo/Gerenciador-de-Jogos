@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    margin: 0;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: 30px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #555;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.jogo {
+    background-color: white;
+    border: 1px solid #455563;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.jogo h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+}
+
+.jogo p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.indisponivel {
+    background-color: #e87529;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #5999ce;
+    color: white;
+    border: 1px solid #345b7b;
+    border-radius: 5px;
+    padding: 9px 18px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.jogo button {
+    display: block;
+    width: 100px;
+    margin: 5px;
+}
+
+.jogo button:last-child {
+    background-color: #c90000;
+    border-color: #990000;
+}
+
+#formulario {
+    background-color: white;
+    border: 1px solid #455563;
+    padding: 15px;
+}
+
+input:not([type="radio"]),
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+#formulario button[type="submit"] {
+    display: block;
+    margin: 20px auto 5px;
+    min-width: 140px;
+}
+
+#mensagem {
+    font-weight: bold;
+    text-align: center;
+    color: #286b35;
+}
+
+.escondido {
+    display: none;
+}
+
+footer {
+    background-color: #888;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .jogo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .jogo button {
+        display: inline-block;
+    }
+
+}
